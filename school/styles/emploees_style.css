@@ -1,0 +1,52 @@
+/* СТИЛЬ ДЛЯ СТРАНИЦЫ С УЧИТЕЛЯМИ */
+
+.sveden_employees{
+    background: url("http://localhost/school/images/back.png");
+    background-size: cover;
+    padding: 30px;
+    margin-top: 70px;
+}
+
+.sveden_employees h3{
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.teacher{
+    vertical-align: top;
+    display: inline-block;
+    padding: 5px;
+    width: 30%;
+}
+
+.teacher img{
+    width: 200px;
+    height: 300px;
+}
+
+.teacher ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .sveden_employees{
+        padding: 15px;
+        margin-top: 450px;
+    }
+    
+    .sveden_employees h3{
+        color: #ffffff;
+        font-size: 32px;
+    }
+    
+    .teacher{
+        display: block;
+        width: 100%;
+    }
+
+}

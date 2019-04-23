@@ -1,0 +1,62 @@
+/* СТИЛЬ ДЛЯ ИНФО-СТРАНИЦЫ */
+
+.info{
+    padding: 30px;
+    background: url("http://localhost/school/images/back.png");
+    background-size: cover;
+    margin-top: 70px;
+    text-align: left;
+}
+
+.info p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.info ul{
+    margin-left: 30px;
+}
+
+.info ol{
+    margin-left: 30px;
+}
+
+.info ul li{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.info ol li{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.info h3{
+    font-size: 28px;
+}
+
+.info h4{
+    font-size: 24px;
+}
+
+.info a{
+    color:#ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.info a:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 480px) {
+    .info{
+        margin-top: 450px;
+    }
+
+}

@@ -1,0 +1,73 @@
+/* СТИЛЬ ДЛЯ СТРАНИЦЫ РЕГИСТРАЦИИ И ВХОДА */
+
+.signin_style{
+    min-height: 500px;
+}
+
+.in table{
+    margin-top: 150px;
+}
+
+.in table td{
+    padding-top: 10px;
+    text-align: right;
+}
+
+.in table{
+    display: inline-block;
+}
+
+.sign table td{
+    padding-top: 10px;
+    text-align: right;
+}
+
+.sign table{
+    display: inline-block;
+    margin-top: 75px;
+}
+
+.in table label{
+    font-size: 22px;
+}
+
+.in input{
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #30083e;
+    outline: none;
+    padding: 3px;
+}
+
+.sign input{
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #30083e;
+    outline: none;
+    padding: 3px;
+}
+
+#sign{
+    font-size: 20px; 
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .in table td{
+        font-size: 24px;
+    }
+
+    .sign table{
+        margin-top: 480px;
+    }
+
+    .sign table td{
+        font-size: 24px;
+    }
+
+    .in table{
+        margin-top: 480px;
+    }
+    
+}

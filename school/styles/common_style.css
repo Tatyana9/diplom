@@ -1,0 +1,30 @@
+/* СТИЛЬ ДЛЯ СТРАНИЦЫ С КОНТАКТНОЙ ИНФОРМАЦИЕЙ */
+
+.sveden_common{
+    background: url("http://localhost/school/images/back.png");
+    background-size: cover;
+    padding: 30px;
+    margin-top: 70px;
+}
+
+.sveden_common ul li{
+    list-style: none;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.sveden_common p{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 480px) {
+    .sveden_common{
+        padding: 15px;
+        margin-top: 450px;
+    }
+    
+}

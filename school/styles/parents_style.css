@@ -1,0 +1,88 @@
+/* СТИЛЬ ДЛЯ СТРАНИЦЫ РОДИТЕЛЯМ */
+
+.sveden_parents{
+    background: url("http://localhost/school/images/back.png");
+    background-size: cover;
+    padding: 30px;
+    margin-top: 70px;
+    min-height: 1000px;
+}
+
+.parents_button{
+    margin-top: -24px;
+    float: left;
+    background-color: #bdd1e2;
+    color: #000000;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.parents_info{
+    display: none;
+}
+
+.parents_info p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.parents_info ul{
+    margin-top: 15px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.parents_info table{
+    display: inline-block;
+}
+
+.parents_info table td{
+    padding-top: 10px;
+    text-align: right;
+}
+
+.parents_info table label{
+    font-size: 22px;
+}
+
+.parents_info input{
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #30083e;
+    outline: none;
+    padding: 3px;
+}
+
+
+
+
+
+.parents_button:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+    .sveden_parents{
+        padding: 15px;
+        margin-top: 450px;
+    }
+    
+    .parents_button{
+        margin-top: 0px;
+        float: inherit;
+        padding: 0px;
+    }
+
+    .parents_info table td{
+        font-size: 20px;
+    }
+    
+    .parents_info table label{
+        font-size: 26px;
+    }
+
+}

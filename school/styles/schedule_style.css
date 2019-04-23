@@ -1,0 +1,25 @@
+/* СТИЛЬ ДЛЯ РАСПИСАНИЯ */
+
+.sveden_schedule{
+    padding: 30px;
+    background: url("http://localhost/school/images/back.png");
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.sveden_schedule table{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .sveden_schedule{
+        padding: 15px;
+        margin-top: 450px;
+    }
+    
+    .sveden_schedule table{
+        font-size: 15px;
+    }
+}

@@ -16,31 +16,31 @@
         </div>
     </div>
     <script src="http://localhost/school/scripts/script_gal.js"></script>
-    <div onclick="this.style.display = 'none';" class="big_img">
+    <div onclick="this.style.display = 'none';" style="background-color:orange;" class="big_img">
         <img src="http://localhost/school/images/gallery/1.png"/>
     </div>
-    <div onclick="this.style.display = 'none';" class="big_img">
+    <div onclick="this.style.display = 'none';"style="background-color:orange;" class="big_img">
         <img src="http://localhost/school/images/gallery/2.png"/>
     </div>
-    <div onclick="this.style.display = 'none';" class="big_img">
+    <div onclick="this.style.display = 'none';"style="background-color:orange;" class="big_img">
         <img src="http://localhost/school/images/gallery/3.png"/>
     </div>
-    <div onclick="this.style.display = 'none';" class="big_img">
+    <div onclick="this.style.display = 'none';" style="background-color:orange;"class="big_img">
         <img src="http://localhost/school/images/gallery/4.png"/>
     </div>
-    <div onclick="this.style.display = 'none';" class="big_img">
+    <div onclick="this.style.display = 'none';" style="background-color:orange;"class="big_img">
         <img src="http://localhost/school/images/gallery/5.png"/>
     </div>
-    <div onclick="this.style.display = 'none';" class="big_img">
+    <div onclick="this.style.display = 'none';"style="background-color:orange;" class="big_img">
         <img src="http://localhost/school/images/gallery/6.png"/>
     </div>
-    <div onclick="this.style.display = 'none';" class="big_img">
+    <div onclick="this.style.display = 'none';"style="background-color:orange;" class="big_img">
         <img src="http://localhost/school/images/gallery/7.png"/>
     </div>
-    <div onclick="this.style.display = 'none';" class="big_img">
+    <div onclick="this.style.display = 'none';"style="background-color:orange;" class="big_img">
         <img src="http://localhost/school/images/gallery/8.png"/>
     </div>
-    <div onclick="this.style.display = 'none';" class="big_img">
+    <div onclick="this.style.display = 'none';" style="background-color:orange;"class="big_img">
         <img src="http://localhost/school/images/gallery/9.png"/>
     </div> 
 <?php include("C:\Users\User\Downloads\OSPanel\domains\localhost\school\bottom.php"); ?>

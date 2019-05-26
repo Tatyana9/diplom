@@ -3,7 +3,7 @@
     $login = $_POST["login"];
     $password = md5($_POST["password"]);
     $sql_command = mysqli_query($link, "SELECT * FROM users WHERE login = '" . $login . "' AND password = '" . $password . "'");
-    if ($sql_command) {
+    if (mysqli_num_rows($sql_command) == 1) {
         setcookie("login", $login, time()+3600, '/');
         header('Location: http://localhost/school/index.php');
     } else {

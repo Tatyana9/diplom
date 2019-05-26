@@ -10,6 +10,7 @@
                     <tr><td>Пароль: </td><td><input class="input_sign" type="password" name="password"></td></tr>
                     <tr><td>Повторите пароль: </td><td><input class="input_sign" type="password"></td></tr>
                 </table><br>
+
                 <input id="sign" type="submit" value="Зарегистрироваться">
             </form>
             <a href="http://localhost/school/index.php" id="sign">На главную</a>

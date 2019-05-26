@@ -23,8 +23,9 @@ function validation_sign() {
 }
 
 var ins = document.getElementById('ins');
+if(ins){
 ins.addEventListener("click", validation_ins);
-
+}
 function validation_ins() {
     var input_in = document.getElementsByClassName('input_in');
     if (input_in[0].value == "" || input_in[1].value == "") {
@@ -34,4 +35,6 @@ function validation_ins() {
 
     }
 }
+
+
 

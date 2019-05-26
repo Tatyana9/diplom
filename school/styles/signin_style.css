@@ -45,12 +45,21 @@
     border: 1px solid #30083e;
     outline: none;
     padding: 3px;
+    text-align: center;
 }
 
 #sign{
     font-size: 20px; 
 }
-
+.error { 
+    min-height: 600px; 
+    padding-top: 50px; 
+    } 
+    
+    .error a{ 
+    font-size: 22px; 
+    font-weight: bold; 
+    }
 
 
 @media screen and (max-width: 480px) {
@@ -71,3 +80,4 @@
     }
     
 }
+

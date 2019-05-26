@@ -2,6 +2,6 @@
 <?php
     $name = $_POST["name"];
     $content = $_POST["content"];
-    mail('', $name, $content); 
+    mail('tatyana.brysenko@gmail.com', $name, $content); 
     header('Location: http://localhost/school/sveden/parents/index.php');
 ?>

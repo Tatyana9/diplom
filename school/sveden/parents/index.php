@@ -113,4 +113,4 @@ standart.edu.ru
 </div> 
 <script src="http://localhost/school/scripts/script_parents.js"></script> 
 </div> 
-<?php include("D:\OSPanel\domains\localhost\school\bottom.php"); ?>
+<?php include("C:\Users\User\Downloads\OSPanel\domains\localhost\school\bottom.php"); ?>

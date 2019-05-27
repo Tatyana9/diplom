@@ -2,7 +2,7 @@
 <?php include("C:\Users\User\Downloads\OSPanel\domains\localhost\school\db_connect.php"); ?>
 <?php include("C:\Users\User\Downloads\OSPanel\domains\localhost\school\Top.php"); ?>
     <div class="container">
-        <div class="signin_style">
+        <div class="signin_style"><br><br><br><br><br>
             <form class="in" method="POST" action="function.php">
                 <table>
                     <tr><td>Логин: </td><td><input class="input_in" type="text" name="login"></td></tr>

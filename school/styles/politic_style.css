@@ -1,0 +1,16 @@
+
+body { 
+    margin-right: 10%; /* Отступ справа */
+    margin-left: 10%; /* Отступ слева */
+   }
+   h1{
+       margin-left: 20%;
+       margin-right: 20%;
+   }
+   h3{
+    /* margin-left: 35%;
+    margin-right: 35%; */
+    text-align:center;
+   }
+  
+  

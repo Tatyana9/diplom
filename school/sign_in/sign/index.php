@@ -10,25 +10,9 @@
                     <tr><td>Логин: </td><td><input class="input_sign" type="text" name="login"></td></tr>
                     <tr><td>Пароль: </td><td><input class="input_sign" type="password" name="password"></td></tr>
                     <tr><td>Повторите пароль: </td><td><input  class="input_sign" name="password2" type="password"></td></tr>
-                </table><br>
-                <button id="myBtn">Открыть окно</button>
-<div id="myModal" class="modal">
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2>Шапка модального окна</h2>
-    </div>
-    <div class="modal-body">
-      <p>Какой-то текст в теле модального окна</p>
-      <p>Ещё другой текст...</p>
-    </div>
-    <div class="modal-footer">
-      <h3>Футер модального окна</h3>
-    </div>
-  </div>
-
-</div>
-                <input id="sign_reg" type="submit" value="Зарегистрироваться">
+                </table><br> 
+               <div> <input id="checkbox" type="checkbox" name="checkbox" onchange="document.getElementById('sign_reg').disabled = !this.checked;"/> Я согласен на <a href="politic.php"> обработку персональных данных</a></div>          
+                <input id="sign_reg" disabled="disabled" name="submit" type="submit" value="Зарегистрироваться">
             </form>
             <a href="http://localhost/school/index.php" id="sign">На главную</a>
             <script src="http://localhost/school/scripts/script_signin.js"></script>

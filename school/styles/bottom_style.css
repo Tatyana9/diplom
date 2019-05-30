@@ -2,11 +2,13 @@
 
 .bottom{
     padding: 15px;
-    background-color: #e57111;
+    /* background-color: #685f58; */
+    /* background: url("http://localhost/school/images/back.png"); */
 }
 
 .bottom h3{
     margin-left: -500px;
+    color: #ffffff;
 }
 
 hr{

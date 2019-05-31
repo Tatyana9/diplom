@@ -7,11 +7,13 @@
     margin-top: 70px;
     min-height: 1000px;
 }
-
+a{
+    color: white;
+}
 .parents_button{
     margin-top: -24px;
     float: left;
-    background-color: #065396;
+    background-color: #aeb8c2;
     color: #000000;
     font-size: 20px;
     padding: 5px 10px;
@@ -19,6 +21,7 @@
 
 .parents_info{
     display: none;
+    color: white;
 }
 
 .parents_info p{

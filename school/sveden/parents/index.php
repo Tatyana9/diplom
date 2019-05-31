@@ -7,7 +7,7 @@
 <input type="button" data-index="2" class="parents_button" value="ФГОС" /> 
 <?php 
 if ($_COOKIE['login'] != "") { 
-echo '<input type="button" data-index="3" class="parents_button" value="Оставить отзыв" />'; 
+echo '<input type="button" data-index="3" class="parents_button" value="Задать вопрос" />'; 
 } 
 ?> 
 <hr> 
@@ -104,8 +104,8 @@ standart.edu.ru
 <div class="parents_info"> 
 <form method="POST" action="function.php"> 
 <table> 
-<tr><td>Тема: </td><td><input type="text" name="name"></td></tr> 
-<tr><td>Содержание: </td><td><input type="text" name="content"></td></tr> 
+<tr><td>Почта: </td><td><input type="text" name="name"></td></tr> 
+<tr><td>Интересующий вопрос: </td><td><input type="text" name="content"></td></tr> 
 </table><br> 
 <input type="submit" value="Отправить"> 
 </form> 

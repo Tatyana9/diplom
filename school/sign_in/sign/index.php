@@ -11,7 +11,7 @@
                     <tr><td>Пароль: </td><td><input class="input_sign" type="password" name="password"></td></tr>
                     <tr><td>Повторите пароль: </td><td><input  class="input_sign" name="password2" type="password"></td></tr>
                 </table><br> 
-               <div> <input id="checkbox" type="checkbox" name="checkbox" onchange="document.getElementById('sign_reg').disabled = !this.checked;"/> Я согласен на <a href="politic.php"> обработку персональных данных</a></div>          
+               <div class="text"> <input id="checkbox"  type="checkbox" name="checkbox" onchange="document.getElementById('sign_reg').disabled = !this.checked;"/> Я согласен на <a href="politic.php"> обработку персональных данных</a></div>          
                 <input id="sign_reg" disabled="disabled" name="submit" type="submit" value="Зарегистрироваться">
             </form>
             <a href="http://localhost/school/index.php" id="sign">На главную</a>

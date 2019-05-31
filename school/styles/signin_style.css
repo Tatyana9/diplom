@@ -1,12 +1,21 @@
 /* СТИЛЬ ДЛЯ СТРАНИЦЫ РЕГИСТРАЦИИ И ВХОДА */
+a:visited {
+        color: #cecece; /* Цвет посещенных ссылок */
+       }
 
+a:hover{
+    color: #b6ea21;
+}
+.text{
+    color: white;
+}
 .signin_style{
     min-height: 500px;
 }
 
 .in table{
     margin: auto;
-
+    color: white;
 }
 
 .in table td{
@@ -27,7 +36,7 @@
 .sign table{
     display: inline-block;
     margin-top: 75px;
-  
+    color: white;
 }
 
 .in table label{
@@ -37,7 +46,7 @@
 .in input{
     font-size: 18px;
     border-radius: 10px;
-    border: 1px solid #30083e;
+    border: 1px solid #1ca0a0;
     outline: none;
     padding: 3px;
    
@@ -46,9 +55,10 @@
 .sign input{
     font-size: 18px;
     border-radius: 10px;
-    border: 1px solid #30083e;
+    border: 1px solid #1d9199;
     outline: none;
     padding: 3px;
+   
     
 }
 

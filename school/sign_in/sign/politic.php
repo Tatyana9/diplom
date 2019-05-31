@@ -5,7 +5,7 @@
   <title>Пример веб-страницы</title>
   <link rel="stylesheet" href="../../styles/politic_style.css">
  </head>
- <input type="button" onclick="history.back();" value="Назад"/>
+ <input  class="knop" type="button" onclick="history.back();" value="Назад"/>
  <body>
  <div ><h1>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</h1>
   <div class="politic_style">

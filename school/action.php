@@ -2,18 +2,17 @@
 <!— СТАРТОВАЯ СТРАНИЦА —> 
 <div class="container"> 
 <div class="action"> 
-<!— РАЗДЕЛ НОВОСТЕЙ —> 
+<!— РАЗДЕЛ Важно знать —> 
 <div class="vaz"> 
-<a href="news/index.php"><div class="link">Важно Знать</div></a> 
+<p ><div class="link">Важно Знать</div></p> 
 <?php 
 $sql_command = mysqli_query($link, "SELECT name, content FROM vaz LIMIT 2"); 
 while ($result = mysqli_fetch_array($sql_command)) { 
- 
 echo '<p>' . $result["content"] . '</p><hr>'; 
 } 
 ?> 
 </div> 
-
+<!— РАЗДЕЛ НОВОСТЕЙ —> 
 <div class="news"> 
 <a href="news/index.php"><div class="link">Новости</div></a> 
 <?php 
@@ -37,6 +36,5 @@ echo '<p>' . $result["content"] . '</p><hr>';
 ?> 
 </div> 
 </div> 
-
 </div> 
 </div>

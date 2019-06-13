@@ -27,7 +27,7 @@
     .news label{ 
     margin-left: 10px; 
     float: left; 
-    font-size: 22px; 
+    font-size: 24px; 
     color: #ffffff; 
     } 
     
@@ -45,7 +45,7 @@
     width: 100%; 
     background-color: #54573f; 
     color: #ffffff; 
-    font-size: 22px; 
+    font-size: 30px; 
     padding-top: 10px; 
     padding-bottom: 10px; 
     } 
@@ -60,7 +60,7 @@
     .news_content label{ 
     margin-left: 10px; 
     float: left; 
-    font-size: 22px; 
+    font-size: 24px; 
     color: #ffffff; 
     } 
     
@@ -111,7 +111,7 @@
     .news_content label{ 
     margin-left: 10px; 
     float: left; 
-    font-size: 22px; 
+    font-size: 24px; 
     color: #ffffff; 
     } 
     
@@ -130,6 +130,6 @@
     } 
     }
     .vaz{
-        font-size: 24px;
+        font-size: 42px;
         color:white;
     }

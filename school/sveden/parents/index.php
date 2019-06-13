@@ -104,7 +104,7 @@ standart.edu.ru
 <div class="parents_info"> 
 <form method="POST" action="function.php"> 
 <table> 
-<tr><td>Почта: </td><td><input type="text" name="name"></td></tr> 
+<tr><td>Почта: </td><td><input type="email" name="name"></td></tr> 
 <tr><td>Интересующий вопрос: </td><td><input type="text" name="content"></td></tr> 
 </table><br> 
 <input type="submit" value="Отправить"> 

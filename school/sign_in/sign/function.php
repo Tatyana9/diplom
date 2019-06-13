@@ -16,5 +16,4 @@
     if ($password != $password2) { 
     header('Location: http://localhost/school/error.php'); 
     }
-
  ?>
